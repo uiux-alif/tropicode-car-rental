@@ -199,7 +199,7 @@ function submitBooking(e) {
 *WhatsApp:* ${phone}
 
 Please confirm availability. Thank you!`;
-  window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(msg)}`, '_blank');
+  window.open(`https://wa.me/628115490273?text=${encodeURIComponent(msg)}`, '_blank');
 }
 
 /* ===== MARQUEE duplicate ===== */
