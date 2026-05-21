@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fleet Catalog — Bali Car Rental & Tour Transport</title>
+  <meta name="description" content="Browse all available rental vehicles in Bali. Filter by type, capacity, and transmission. Instant WhatsApp booking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="nav-logo"><span class="nav-logo-dot"></span>Bali Transport</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="fleet.html" class="active">Fleet</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-primary btn-sm">💬 WhatsApp</a>
+    </div>
+    <button class="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav-mobile">
+    <a href="index.html">Home</a>
+    <a href="fleet.html">Fleet</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-primary btn-sm mt-8">💬 WhatsApp</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="wrap">
+    <span class="tag">Fleet Catalog</span>
+    <h1>Find your perfect ride</h1>
+    <p>Clean, reliable vehicles for every group size and travel style — from economy MPVs to spacious minibuses.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a><sep>›</sep><span>Fleet</span></div>
+  </div>
+</div>
+
+<!-- STICKY FILTERS -->
+<div class="fleet-sticky">
+  <div class="wrap">
+    <div class="filter-row">
+      <div class="filters" style="margin:0">
+        <button class="f-btn active" data-filter="all">All</button>
+        <button class="f-btn" data-filter="MPV">MPV</button>
+        <button class="f-btn" data-filter="Premium MPV">Premium</button>
+        <button class="f-btn" data-filter="SUV">SUV</button>
+        <button class="f-btn" data-filter="Van">Van</button>
+        <button class="f-btn" data-filter="Minibus">Minibus</button>
+      </div>
+      <select id="filter-trans" class="f-select">
+        <option value="all">All Transmissions</option>
+        <option value="Manual">Manual</option>
+        <option value="Automatic">Automatic</option>
+      </select>
+      <select id="filter-seats" class="f-select">
+        <option value="all">All Capacities</option>
+        <option value="5">5+ Seats</option>
+        <option value="7">7+ Seats</option>
+        <option value="12">12+ Seats</option>
+      </select>
+      <span class="fleet-ct">Loading…</span>
+    </div>
+  </div>
+</div>
+
+<!-- FLEET GRID -->
+<section class="section">
+  <div class="wrap">
+    <div class="fleet-grid" id="fleet-grid"></div>
+  </div>
+</section>
+
+<!-- RENTAL RULES -->
+<section class="section" style="background:var(--surface-2);border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div class="sh center">
+      <span class="tag">Before you book</span>
+      <h2>Rental terms & conditions</h2>
+      <p>Important information to ensure a smooth and transparent rental experience.</p>
+    </div>
+    <div class="rules-grid">
+      <div class="rule-card"><div class="rule-icon">🪪</div><div><h4>Valid ID Required</h4><p>KTP (Indonesian) or passport required for all rentals.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">🚗</div><div><h4>Driver's License</h4><p>Valid SIM A or international permit for self drive.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">⛽</div><div><h4>Fuel Policy</h4><p>Return vehicle with same fuel level as pickup. Fuel not included.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">⏰</div><div><h4>Overtime Fee</h4><p>Extra hours beyond agreed period incur additional charges.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">💳</div><div><h4>Refundable Deposit</h4><p>Security deposit required, returned on safe vehicle return.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">🛡️</div><div><h4>Damage Policy</h4><p>Renter is responsible for damage not covered by basic insurance.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">❌</div><div><h4>Free Cancellation</h4><p>Cancel up to 24 hours before pickup at no charge via WhatsApp.</p></div></div>
+      <div class="rule-card"><div class="rule-icon">📋</div><div><h4>Price Confirmation</h4><p>Estimates are indicative. Final price confirmed via WhatsApp.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-sm">
+  <div class="wrap">
+    <div class="cta-block">
+      <div>
+        <h2>Can't find what you need?</h2>
+        <p>We may have additional vehicles or custom packages. Just ask — we reply within 30 minutes.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="https://wa.me/6281234567890?text=Hello%2C%20I%20need%20help%20choosing%20a%20vehicle." target="_blank" class="btn btn-wa btn-lg">💬 Ask on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><span class="footer-logo-dot"></span>Bali Transport</div>
+        <p>Professional car rental and tour transport across Bali.</p>
+        <div class="footer-social">
+          <a href="#" class="soc-btn">𝕏</a><a href="#" class="soc-btn">📸</a>
+          <a href="https://wa.me/6281234567890" class="soc-btn" target="_blank">💬</a>
+        </div>
+      </div>
+      <div class="footer-col"><h5>Navigation</h5><ul><li><a href="index.html">Home</a></li><li><a href="fleet.html">Fleet</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="fleet.html">Self Drive</a></li><li><a href="fleet.html">With Driver</a></li><li><a href="contact.html">Airport Transfer</a></li><li><a href="contact.html">Private Tour</a></li></ul></div>
+      <div class="footer-col"><h5>Contact</h5>
+        <div class="fc-item"><span class="icon">📞</span><a href="tel:+6281234567890">+62 812-3456-7890</a></div>
+        <div class="fc-item"><span class="icon">✉️</span><a href="mailto:info@balitransport.com">info@balitransport.com</a></div>
+        <div class="fc-item"><span class="icon">🕐</span><span>Open 24/7</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Bali Transport. All rights reserved.</span><span>Made with care in Bali 🌴</span></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/6281234567890" target="_blank" class="wa-float">💬</a>
+
+<!-- BOOKING MODAL -->
+<div id="booking-modal" class="overlay">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-hd"><h3>Check Availability</h3><button class="modal-x" id="modal-close-btn">✕</button></div>
+    <div class="modal-car"><img id="modal-car-img" src="" alt=""><div><h4 id="modal-car-name"></h4><span id="modal-car-cat"></span></div></div>
+    <form class="modal-body" id="booking-form" novalidate>
+      <div class="form-row">
+        <div class="fg"><label for="pickup-date">Pickup Date</label><input type="date" id="pickup-date" required></div>
+        <div class="fg"><label for="return-date">Return Date</label><input type="date" id="return-date" required></div>
+      </div>
+      <div class="fg"><label for="driver-option">Service Type</label>
+        <select id="driver-option"><option value="self_drive">Self Drive</option><option value="with_driver">With Driver (+Rp 120,000–200,000/day)</option></select>
+      </div>
+      <div class="fg"><label for="pickup-loc">Pickup Location</label><input type="text" id="pickup-loc" placeholder="e.g. Ngurah Rai Airport / Hotel name" required></div>
+      <div class="form-row">
+        <div class="fg"><label for="cust-name">Your Name</label><input type="text" id="cust-name" placeholder="Full name" required></div>
+        <div class="fg"><label for="cust-phone">WhatsApp Number</label><input type="tel" id="cust-phone" placeholder="+62 8xx-xxxx-xxxx" required></div>
+      </div>
+      <div class="fg"><label for="notes">Notes (optional)</label><textarea id="notes" placeholder="Child seat, special requests..."></textarea></div>
+      <div class="price-box">
+        <div class="price-box-hd">💰 Estimated Price</div>
+        <div class="price-rows">
+          <div class="price-row"><span>Duration</span><span id="calc-dur">1 day</span></div>
+          <div class="price-row"><span>Base Rental</span><span id="calc-base">—</span></div>
+          <div class="price-row" id="drv-row" style="display:none"><span>Driver Fee</span><span id="calc-drv">—</span></div>
+        </div>
+        <hr class="price-hr">
+        <div class="price-total"><span>Estimated Total</span><span id="calc-tot">—</span></div>
+        <p class="price-note">* Final price confirmed via WhatsApp before you commit.</p>
+      </div>
+    </form>
+    <div class="modal-ft">
+      <button type="button" class="btn btn-outline" onclick="closeModal()">Cancel</button>
+      <button type="submit" form="booking-form" class="btn btn-wa">Send via WhatsApp 💬</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

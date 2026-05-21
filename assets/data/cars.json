@@ -1,0 +1,128 @@
+[
+  {
+    "id": "avanza-01",
+    "name": "Toyota Avanza",
+    "category": "MPV",
+    "seats": 7,
+    "transmission": "Manual",
+    "fuel_type": "Petrol",
+    "luggage": 2,
+    "base_price": 300000,
+    "driver_price": 120000,
+    "availability": true,
+    "self_drive": true,
+    "with_driver": true,
+    "features": ["Air Conditioning","Bluetooth Audio","USB Charging","Child Lock"],
+    "images": {
+      "exterior": "https://placehold.co/900x560/e8f0fe/1a56db?text=Toyota+Avanza",
+      "interior": "https://placehold.co/900x560/dbeafe/1d4ed8?text=Interior",
+      "dashboard": "https://placehold.co/900x560/eff6ff/2563eb?text=Dashboard"
+    },
+    "description": "A reliable and spacious MPV perfect for family trips and group tours around Bali."
+  },
+  {
+    "id": "innova-01",
+    "name": "Toyota Innova",
+    "category": "Premium MPV",
+    "seats": 7,
+    "transmission": "Automatic",
+    "fuel_type": "Diesel",
+    "luggage": 3,
+    "base_price": 500000,
+    "driver_price": 150000,
+    "availability": true,
+    "self_drive": true,
+    "with_driver": true,
+    "features": ["Air Conditioning","Premium Audio","USB Charging","Leather Seats","Wide Legroom"],
+    "images": {
+      "exterior": "https://placehold.co/900x560/e8f0fe/1a56db?text=Toyota+Innova",
+      "interior": "https://placehold.co/900x560/dbeafe/1d4ed8?text=Interior",
+      "dashboard": "https://placehold.co/900x560/eff6ff/2563eb?text=Dashboard"
+    },
+    "description": "Premium MPV offering superior comfort for long-distance tours and corporate travel."
+  },
+  {
+    "id": "xenia-01",
+    "name": "Daihatsu Xenia",
+    "category": "MPV",
+    "seats": 7,
+    "transmission": "Manual",
+    "fuel_type": "Petrol",
+    "luggage": 2,
+    "base_price": 280000,
+    "driver_price": 120000,
+    "availability": true,
+    "self_drive": true,
+    "with_driver": true,
+    "features": ["Air Conditioning","Audio System","USB Charging"],
+    "images": {
+      "exterior": "https://placehold.co/900x560/e8f0fe/1a56db?text=Daihatsu+Xenia",
+      "interior": "https://placehold.co/900x560/dbeafe/1d4ed8?text=Interior",
+      "dashboard": "https://placehold.co/900x560/eff6ff/2563eb?text=Dashboard"
+    },
+    "description": "An economical and practical MPV, ideal for budget-conscious travelers exploring Bali."
+  },
+  {
+    "id": "crv-01",
+    "name": "Honda CR-V",
+    "category": "SUV",
+    "seats": 5,
+    "transmission": "Automatic",
+    "fuel_type": "Petrol",
+    "luggage": 3,
+    "base_price": 650000,
+    "driver_price": 150000,
+    "availability": true,
+    "self_drive": true,
+    "with_driver": true,
+    "features": ["Air Conditioning","Apple CarPlay","USB Charging","Sunroof","Cruise Control"],
+    "images": {
+      "exterior": "https://placehold.co/900x560/e8f0fe/1a56db?text=Honda+CR-V",
+      "interior": "https://placehold.co/900x560/dbeafe/1d4ed8?text=Interior",
+      "dashboard": "https://placehold.co/900x560/eff6ff/2563eb?text=Dashboard"
+    },
+    "description": "Stylish and capable SUV for couples and small families seeking comfort and style."
+  },
+  {
+    "id": "hiace-01",
+    "name": "Toyota Hi-Ace",
+    "category": "Van",
+    "seats": 12,
+    "transmission": "Manual",
+    "fuel_type": "Diesel",
+    "luggage": 5,
+    "base_price": 800000,
+    "driver_price": 200000,
+    "availability": true,
+    "self_drive": false,
+    "with_driver": true,
+    "features": ["Air Conditioning","Audio System","Large Cargo Space","Reclining Seats"],
+    "images": {
+      "exterior": "https://placehold.co/900x560/e8f0fe/1a56db?text=Toyota+Hi-Ace",
+      "interior": "https://placehold.co/900x560/dbeafe/1d4ed8?text=Interior",
+      "dashboard": "https://placehold.co/900x560/eff6ff/2563eb?text=Dashboard"
+    },
+    "description": "Large capacity van for group tours, corporate events, and airport transfers."
+  },
+  {
+    "id": "elf-01",
+    "name": "Isuzu Elf",
+    "category": "Minibus",
+    "seats": 15,
+    "transmission": "Manual",
+    "fuel_type": "Diesel",
+    "luggage": 6,
+    "base_price": 900000,
+    "driver_price": 200000,
+    "availability": true,
+    "self_drive": false,
+    "with_driver": true,
+    "features": ["Air Conditioning","Audio System","Extra Luggage Space","Strong Engine"],
+    "images": {
+      "exterior": "https://placehold.co/900x560/e8f0fe/1a56db?text=Isuzu+Elf",
+      "interior": "https://placehold.co/900x560/dbeafe/1d4ed8?text=Interior",
+      "dashboard": "https://placehold.co/900x560/eff6ff/2563eb?text=Dashboard"
+    },
+    "description": "High-capacity minibus designed for large group travel and extended Bali tours."
+  }
+]

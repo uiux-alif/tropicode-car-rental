@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Bali Car Rental & Tour Transport</title>
+  <meta name="description" content="Get in touch with Bali Transport. WhatsApp, email, or contact form — we reply within 30 minutes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .contact-form-wrap .fg input,
+    .contact-form-wrap .fg select,
+    .contact-form-wrap .fg textarea { background: var(--surface-2); }
+    .hours-row { display:flex; justify-content:space-between; padding:10px 0; border-bottom:1px solid var(--border); font-size:.875rem; }
+    .hours-row:last-child { border:none; }
+    .hours-row span:first-child { color:var(--ink-2); font-weight:500; }
+    .hours-row span:last-child  { color:var(--ink-4); }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="nav-logo"><span class="nav-logo-dot"></span>Bali Transport</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a><a href="fleet.html">Fleet</a>
+      <a href="about.html">About</a><a href="contact.html" class="active">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="fleet.html" class="btn btn-outline btn-sm">View Fleet</a>
+      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-primary btn-sm">WhatsApp</a>
+    </div>
+    <button class="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav-mobile">
+    <a href="index.html">Home</a><a href="fleet.html">Fleet</a>
+    <a href="about.html">About</a><a href="contact.html">Contact</a>
+    <a href="fleet.html" class="btn btn-primary btn-sm mt-8">View Fleet</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="wrap">
+    <span class="tag">Contact</span>
+    <h1>Let's plan your<br>Bali journey</h1>
+    <p>WhatsApp is the fastest way to reach us — we reply within 30 minutes, day or night.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a><sep>›</sep><span>Contact</span></div>
+  </div>
+</div>
+
+<!-- CONTACT SPLIT -->
+<section class="section">
+  <div class="wrap">
+    <div class="contact-split">
+      <!-- LEFT: info -->
+      <div>
+        <div class="info-card">
+          <div class="info-icon">💬</div>
+          <div>
+            <h4>WhatsApp (fastest)</h4>
+            <p>Send us a message anytime — we reply within 30 minutes.<br>
+            <a href="https://wa.me/6281234567890" target="_blank" style="color:var(--primary);font-weight:600;">+62 812-3456-7890 →</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>Prefer to call? We're available 24/7 for urgent inquiries.<br>
+            <a href="tel:+6281234567890" style="color:var(--primary);font-weight:600;">+62 812-3456-7890 →</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>For detailed inquiries or corporate bookings.<br>
+            <a href="mailto:info@balitransport.com" style="color:var(--primary);font-weight:600;">info@balitransport.com →</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <h4>Our Office</h4>
+            <p>Jl. Sunset Road No. 88<br>Kuta, Bali 80361, Indonesia</p>
+          </div>
+        </div>
+
+        <!-- Business Hours -->
+        <div style="margin-top:28px; background:var(--surface-2); border:1px solid var(--border); border-radius:var(--r-lg); padding:24px;">
+          <h4 style="font-size:.8rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-4); margin-bottom:16px;">Business Hours</h4>
+          <div class="hours-row"><span>WhatsApp &amp; Phone</span><span>24 hours, 7 days</span></div>
+          <div class="hours-row"><span>Office (Mon–Fri)</span><span>08:00 – 18:00 WITA</span></div>
+          <div class="hours-row"><span>Office (Sat–Sun)</span><span>09:00 – 15:00 WITA</span></div>
+          <div class="hours-row"><span>Airport Transfers</span><span>24 hours, 7 days</span></div>
+        </div>
+
+        <!-- WhatsApp CTA -->
+        <a href="https://wa.me/6281234567890?text=Hello%2C%20I%27d%20like%20to%20inquire%20about%20car%20rental%20in%20Bali." target="_blank" class="btn btn-wa btn-lg mt-24" style="width:100%;justify-content:center;">
+          💬 Start a WhatsApp Conversation
+        </a>
+      </div>
+
+      <!-- RIGHT: form -->
+      <div class="contact-form-wrap">
+        <span class="tag">Send a message</span>
+        <h2>Tell us about your trip</h2>
+        <p style="margin-bottom:28px; font-size:.9rem;">Fill out the form below and we'll respond within a few hours. For urgent needs, WhatsApp is faster.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="fg"><label for="c-name">Full Name</label><input type="text" id="c-name" placeholder="Your name" required></div>
+            <div class="fg"><label for="c-phone">WhatsApp Number</label><input type="tel" id="c-phone" placeholder="+62 8xx-xxxx-xxxx" required></div>
+          </div>
+          <div class="fg"><label for="c-email">Email Address</label><input type="email" id="c-email" placeholder="you@email.com"></div>
+          <div class="fg">
+            <label for="c-service">Service Needed</label>
+            <select id="c-service">
+              <option value="">Select a service…</option>
+              <option>Self Drive Rental</option>
+              <option>Car With Driver</option>
+              <option>Airport Transfer</option>
+              <option>Private Tour</option>
+              <option>Multi-day Rental</option>
+              <option>Corporate Transport</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="fg"><label for="c-arrive">Arrival Date</label><input type="date" id="c-arrive"></div>
+            <div class="fg"><label for="c-depart">Departure Date</label><input type="date" id="c-depart"></div>
+          </div>
+          <div class="fg"><label for="c-msg">Your Message</label><textarea id="c-msg" placeholder="Tell us about your plans, group size, special requests…" style="min-height:120px;"></textarea></div>
+          <button type="button" class="btn btn-wa btn-lg" style="width:100%;justify-content:center;" onclick="sendContactWA()">
+            Send via WhatsApp 💬
+          </button>
+          <p style="font-size:.76rem;color:var(--ink-4);text-align:center;margin-top:12px;">Clicking above opens WhatsApp with your details pre-filled.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP PLACEHOLDER -->
+<div style="background:var(--blue-50); border-top:1px solid var(--blue-200); border-bottom:1px solid var(--blue-200); padding:0;">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.3!2d115.168!3d-8.721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwNDMnMTUuNiJTIDExNcKwMTAnMDQuOCJF!5e0!3m2!1sen!2sid!4v1234567890"
+    width="100%" height="340" style="display:block; border:none; filter:grayscale(.2);"
+    loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+    title="Bali Transport office location">
+  </iframe>
+</div>
+
+<!-- FAQ -->
+<section class="section" style="background:var(--surface-2); border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div class="sh center">
+      <span class="tag">Quick answers</span>
+      <h2>Before you get in touch</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-wrap">
+        <button class="faq-q">How quickly do you respond? <span class="ico">+</span></button>
+        <div class="faq-a">Via WhatsApp: within 30 minutes, 24/7. Via email: within 4 business hours. We strongly recommend WhatsApp for fast replies.</div>
+      </div>
+      <div class="faq-wrap">
+        <button class="faq-q">Can I book for same day? <span class="ico">+</span></button>
+        <div class="faq-a">Yes, depending on vehicle availability. Contact us via WhatsApp for the fastest confirmation on short-notice bookings.</div>
+      </div>
+      <div class="faq-wrap">
+        <button class="faq-q">Do you deliver the vehicle to my hotel? <span class="ico">+</span></button>
+        <div class="faq-a">Yes — we can deliver and collect the vehicle from your hotel or villa anywhere in Bali. Just mention the address in your inquiry.</div>
+      </div>
+      <div class="faq-wrap">
+        <button class="faq-q">Can I modify my booking after confirming? <span class="ico">+</span></button>
+        <div class="faq-a">Yes, modifications are possible subject to availability. Contact us at least 12 hours before your pickup time via WhatsApp.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><span class="footer-logo-dot"></span>Bali Transport</div>
+        <p>Professional car rental and tour transport across Bali since 2015.</p>
+        <div class="footer-social"><a href="#" class="soc-btn">𝕏</a><a href="#" class="soc-btn">📸</a><a href="https://wa.me/6281234567890" class="soc-btn" target="_blank">💬</a></div>
+      </div>
+      <div class="footer-col"><h5>Navigation</h5><ul><li><a href="index.html">Home</a></li><li><a href="fleet.html">Fleet</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="fleet.html">Self Drive</a></li><li><a href="fleet.html">With Driver</a></li><li><a href="contact.html">Airport Transfer</a></li><li><a href="contact.html">Private Tour</a></li></ul></div>
+      <div class="footer-col"><h5>Contact</h5>
+        <div class="fc-item"><span class="icon">📍</span><span>Jl. Sunset Road No. 88, Kuta, Bali</span></div>
+        <div class="fc-item"><span class="icon">📞</span><a href="tel:+6281234567890">+62 812-3456-7890</a></div>
+        <div class="fc-item"><span class="icon">✉️</span><a href="mailto:info@balitransport.com">info@balitransport.com</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Bali Transport. All rights reserved.</span><span>Made with care in Bali 🌴</span></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/6281234567890" target="_blank" class="wa-float">💬</a>
+
+<script src="assets/js/main.js"></script>
+<script>
+function sendContactWA() {
+  const name    = document.getElementById('c-name')?.value || '';
+  const phone   = document.getElementById('c-phone')?.value || '';
+  const service = document.getElementById('c-service')?.value || 'Not specified';
+  const arrive  = document.getElementById('c-arrive')?.value || '';
+  const depart  = document.getElementById('c-depart')?.value || '';
+  const msg     = document.getElementById('c-msg')?.value || '';
+  const text = `Hello, I have an inquiry 🙏\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Service:* ${service}\n*Arrival:* ${arrive || '—'}\n*Departure:* ${depart || '—'}\n*Message:* ${msg || '—'}\n\nThank you!`;
+  window.open('https://wa.me/6281234567890?text=' + encodeURIComponent(text), '_blank');
+}
+</script>
+</body>
+</html>
