@@ -185,7 +185,7 @@ function submitBooking(e) {
   const tot  = overlay.querySelector('#calc-tot')?.textContent  || '—';
   const svc  = drv === 'with_driver' ? 'With Driver' : 'Self Drive';
   const msg  =
-`Hello, I would like to check availability 🙏
+`Hello, I would like to check availability 
 
 *Vehicle:* ${car.name}
 *Pickup Date:* ${pu}
